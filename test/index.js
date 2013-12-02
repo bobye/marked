@@ -19,7 +19,7 @@ var fs = require('fs')
  */
 
 function load() {
-  var dir = __dirname + '/tests'
+  var dir = __dirname + '/new'
     , files = {}
     , list
     , file
