@@ -1,6 +1,7 @@
 all:
 	@cp lib/marked.js marked.js
 	@uglifyjs -o marked.min.js marked.js
+	@cp marked.min.js ../pencil/client/js/lib
 
 clean:
 	@rm marked.js
